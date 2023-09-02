@@ -1,0 +1,1 @@
+function magic:events/id
