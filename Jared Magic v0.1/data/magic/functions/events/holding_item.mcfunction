@@ -1,0 +1,2 @@
+execute as @a[nbt=!{SelectedItem:{id:"minecraft:stick",tag:{display:{Name:'{"text":"Wand"}'}}}}] run tag @s remove Holding_Wand
+execute as @a[nbt={SelectedItem:{id:"minecraft:stick",tag:{display:{Name:'{"text":"Wand"}'}}}}] run tag @s add Holding_Wand

@@ -1,0 +1,1 @@
+scoreboard players set @a[scores={lclick=1}] lclick 0
