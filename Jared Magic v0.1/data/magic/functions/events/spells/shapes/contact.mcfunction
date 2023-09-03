@@ -1,0 +1,3 @@
+execute as @s at @s anchored feet positioned ^ ^ ^1.25 as @e[type=!marker,type=!interaction,distance=..1,limit=1] at @s run particle dust_color_transition 0.867 0.722 1.000 0.75 1.000 1.000 1.000 ~ ~1 ~ 0.15 0.3 0.15 0 3000 normal
+execute as @s at @s anchored feet positioned ^ ^ ^1.25 as @e[type=!marker,type=!interaction,distance=..1,limit=1] at @s run playsound minecraft:block.snow.place master @a ~ ~ ~ 5 1 0
+execute as @s at @s anchored feet positioned ^ ^ ^1.25 as @e[type=!marker,type=!interaction,distance=..1,limit=1] run damage @s 20 indirect_magic by @a[distance=1.15..1.35,limit=1]
