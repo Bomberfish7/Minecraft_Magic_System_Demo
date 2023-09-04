@@ -11,5 +11,7 @@ scoreboard players set @a lclick 0
 scoreboard players set @a rclick 0
 
 kill @e[type=interaction,tag=Wand_Click]
+kill @e[type=block_display,tag=Trap]
+kill @e[type=marker,tag=Ray]
 
 tellraw @a [{"text": "J_Magic pack Reloaded!","color": "#28843a"}]
